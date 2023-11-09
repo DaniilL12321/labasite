@@ -1,4 +1,5 @@
 .navbar {
+    -webkit-user-select: none;
     background: #c9bcff82;
 }
 .nav-link, .navbar-brand {
@@ -34,6 +35,7 @@
     padding: 2em;
 }
 .description h1 {
+    -webkit-user-select: none;
     color: #ffffff ;
 }
 .description p {
@@ -52,6 +54,7 @@
 }
 /* обо мне */
 .about {
+    -webkit-user-select: none;
     margin: 4em 0;
     padding: 1em;
     position: relative;
@@ -84,10 +87,12 @@
 }
 /* портфолио */
 .carousel {
+    -webkit-user-select: none;
     max-width: 50%;
     margin: 0 auto;
 }
 .carousel h1 {
+    -webkit-user-select: none;
     margin: 20px;
     color: rgb(255, 255, 255) !important;
     text-align: center;
@@ -118,6 +123,7 @@
     bottom: 10px;
 }
 .bg {
+    -webkit-user-select: none;
     background-image: url('../images/8.gif');
     background-size: 100%;
     min-height: 100px;
@@ -149,6 +155,7 @@
     color: #290347;
 }
 .cards {
+    -webkit-user-select: none;
     margin-top: 20px;
     background-color: #ffffff;
     align-items: center;
@@ -257,6 +264,7 @@
     text-align: center;
 }
 .contact-form h1 {
+    -webkit-user-select: none;
     font-size: 36px;
     color: rgb(255, 255, 255);
 }
@@ -292,3 +300,12 @@
 .contact-form input[type='submit']:hover {
     background: rgb(191, 0, 255);
 }
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
